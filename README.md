@@ -5,8 +5,7 @@ This project explores the implementation of Orthogonal Frequency Division Multip
 
 The project is organized into two main directories: **Functions** and **Others**. Each directory contains various MATLAB scripts, waveforms, and supporting files to demonstrate the full implementation and testing of OFDM with different modulation schemes. The project also uses RF equipment to analyze and improve signal performance.
 
----
-
+--
 ## Directories and Files
 
 ### Functions Directory
