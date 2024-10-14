@@ -59,9 +59,7 @@ The project is organized into two main directories: **Functions** and **Others**
    
 7. **transmitterOFDM.m**  
    Handles the transmission side of the OFDM signal, including modulation, waveform generation, and sending the signal through the transmission channel.
-
 ---
-
 ## Equipment Used
 The following RF equipment was essential for signal generation, transmission, and analysis during the project:
 
@@ -76,9 +74,7 @@ The following RF equipment was essential for signal generation, transmission, an
    
 4. **Digital Multimeters**  
    Ensures accurate measurements of electrical signals during modulation and transmission.
-
 ---
-
 ## Project Workflow
 
 ### 1. Signal Generation
@@ -110,4 +106,3 @@ The following RF equipment was essential for signal generation, transmission, an
 2. Ensure you have MATLAB installed on your system.
 3. To simulate the OFDM process, run `generate_ofdm_signal.m` to generate the signal, then use `transmitterOFDM.m` to send the signal.
 4. Use `receiverOFDM.m` to receive and demodulate the signal.
-
