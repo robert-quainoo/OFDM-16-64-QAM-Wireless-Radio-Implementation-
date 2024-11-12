@@ -45,16 +45,13 @@ The project is organized into two main directories: **Functions** and **Others**
 3. **32pskofdm.WAVEFORM**  
    Waveform data for 32-PSK OFDM transmission.
    
-4. **generate_ofdm_signal.m**  
-   MATLAB script that generates and formats OFDM signals for transmission.
-   
-5. **integration.m**  
+4. **integration.m**  
    Integration script for combining various system components for overall testing.
    
-6. **receiverOFDM.m**  
+5. **receiverOFDM.m**  
    Script responsible for handling OFDM signal reception, demodulation, and error detection.
    
-7. **transmitterOFDM.m**  
+6. **transmitterOFDM.m**  
    Handles the transmission side of the OFDM signal, including modulation, waveform generation, and sending the signal through the transmission channel.
 ---
 ## Equipment Used
@@ -98,5 +95,5 @@ The following RF equipment was essential for signal generation, transmission, an
 
 1. Download all the files in the **Functions** and **Others** directories.
 2. Ensure you have MATLAB installed on your system.
-3. To simulate the OFDM process, run `generate_ofdm_signal.m` to generate the signal, then use `transmitterOFDM.m` to send the signal.
+3. To simulate the OFDM process, run `transmitterOFDM.m` to generate the waveform and send it to the SG.
 4. Use `receiverOFDM.m` to receive and demodulate the signal.
