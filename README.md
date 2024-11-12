@@ -68,9 +68,6 @@ The following RF equipment was essential for signal generation, transmission, an
    
 3. **Oscilloscopes**  
    Captures the transmitted signals and verifies their time-domain characteristics.
-   
-4. **Digital Multimeters**  
-   Ensures accurate measurements of electrical signals during modulation and transmission.
 ---
 ## Project Workflow
 
